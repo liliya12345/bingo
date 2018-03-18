@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<hmtl>
+
+    <head>
+        <title>Bingo</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <section>
+            <form id="form">
+            <div class=input>
+                <p class ="list">Skriv ditt tal från 0 till 9. Du kan välja 2 tal men 1 på en gång</p>
+                <input type="text" name="value" id="value" value="">
+            </div>
+        </form>
+
+            <div class="list">
+                <div id="listItem">
+                </div>
+            <button class="val" type="submit" onclick=val()> Ditt tal!</button>
+            <button class="val1" type="submit" onclick=start()>Start!</button>
+            <button class="val2" type="submit" onclick=location.reload()>Nytt spel!</button>
+            
+        </section>
+        <section>
+                <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="list">
+                                    <p>Resultat</p>
+                                <div id="listItem3">
+        
+                                </div>
+                                <div id="listItem1">
+        
+                                </div>
+                                <div id="listItem2">
+                                </div>
+                            </div>
+                        </div>
+        </section>
+
+        <audio src='audio/2.mp3' autoplay="autoplay"></audio>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="music.js"></script>
+        <script src="app.js"></script>
+
+    </body>
+</hmtl>

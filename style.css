@@ -1,0 +1,105 @@
+body{
+margin: 0 auto;
+background-image: url("bild.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+section{
+width: 100%;
+height: 80%;
+display: block;
+margin: 0 auto;
+text-align: center;
+}
+.input{
+    
+    margin-top: 10%; 
+    
+}
+#value{
+    width: 200px;
+    height: 30px;
+    
+}
+.val{
+    background-image: url("bild1.jpg");
+    color:black;
+    width: 190px;
+    height: 70px;
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 10px; 
+    vertical-align: top;
+    
+   
+    
+    
+}
+.val1{
+    background-image: url("bild1.jpg");
+    color:black;
+    width: 100px;
+    height: 70px;
+    margin-top: 10%;
+    margin-left:30%;
+    float: left;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 10px; 
+    
+}
+.val2{
+    background-image: url("bild1.jpg");
+    color:black;
+    width: 100px;
+    height: 70px;
+    margin-top: 10%; 
+    margin-right:30%; 
+    float: right;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+.list{
+margin-top: 10px;
+ text-align: center;
+ font-size: 30px;
+ color: aliceblue;
+ font-weight: bolder;
+}
+#stop{
+    background-image: url("bild.jpg");
+    width: 20%;
+}
+input[type="text"]
+{
+    font-size:24px;
+}
+.modal{
+    display: none;
+    position: fixed;
+    top: 0; 
+    height: 50%;
+    overflow: auto;
+    opacity: 0.95;
+    filter: alpha(opacity=95); 
+    background-color: rgb(34, 31, 31);
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid rgb(19, 14, 2);
+    width: 50%;
+    margin-left: 24%;
+    margin-top: 10%;
+}
+
+
+.close{
+    margin-top:-40px;
+    float:right;
+    font-size: 50px;
+    color: brown;
+    font-weight: bolder;
+}
